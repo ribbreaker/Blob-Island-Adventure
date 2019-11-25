@@ -1,12 +1,13 @@
 // blob_Island_Adventure.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 #include "pch.h"
-#include <stdio.h>
+#include "Scene.h"
+
+Scene scene;
 
 int main()
 {
-	printf("Hello world!\n");
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
