@@ -1,5 +1,7 @@
 #ifndef ADV_FUNC_H
 #define ADV_FUNC_H
+
+#include <string>
 //Process text input
 //Go to another screen/scene
 //Display help
@@ -17,7 +19,9 @@ enum SceneName {
 };
 const int MAXSTRING = 50;
 void ProcessTextInput(char p[MAXSTRING]);
+void textToScreen(std::string text, int speed = 50);
 void GoToScene(enum SceneName);
+void GameOver();
 #endif
 
 

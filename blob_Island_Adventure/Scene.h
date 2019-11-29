@@ -20,5 +20,6 @@ private:
 	//Jumping to the next scene
 	void GoToScene();
 
+
 };
 #endif
